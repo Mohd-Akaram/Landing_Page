@@ -1,0 +1,74 @@
+*{
+     margin: 0px;
+     padding: 0px;
+    box-sizing: border-box; 
+} 
+
+body{
+     background-image:url(image.jpg);
+     background-size:cover;
+    
+    
+}
+.container{
+    max-width: 80%;
+    /* background-color: rgb(221, 140, 221); */
+    
+    padding: 34px;
+    margin: auto;
+}
+    
+.container h1, p{
+    text-align: center;
+    font-family: 'Lugrasimo', cursive;
+    color: rgb(211, 238, 9);
+    
+}
+input,textarea{
+    width: 80%;
+    margin: 10px;
+    padding: 7px;
+    margin-left: 95px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 11px;
+    display: block;
+    font-family: 'Lugrasimo', cursive;
+}
+   
+
+p{
+    font-size: 17px;
+}
+.btn{
+    margin-left: 95px;
+    border: 2px solid white;
+    border-radius:11px ;
+    padding: 5px;
+   
+    background-color: rgb(85, 18, 85);
+    color: white;
+    cursor: pointer;
+    font-family: 'Lugrasimo', cursive;
+    
+}
+.reset{
+    
+    margin-left: 15px;
+    border: 2px solid white;
+    border-radius:11px ;
+    padding: 5px;
+    background-color: rgb(85, 18, 85);
+    color: white;
+    cursor: pointer;
+    font-family: 'Lugrasimo', cursive;
+} 
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+.subline{
+    color: rgb(105 215 104);
+}
